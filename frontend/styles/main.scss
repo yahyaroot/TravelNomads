@@ -304,12 +304,14 @@ header {
     }
 
     h3{
-      font-weight: 600;
+      font-weight: 300;
       font-size: 14px;
       color: #071c4d;
       }
 
-    .trip-informations{
+  
+
+    .trip-informations {
 
       th {
         font-weight:300 ;
@@ -329,11 +331,45 @@ header {
       .text-orange{
         color:#FF9E53;
         font-weight: bold;
-
-
       }
 
     }
+.payment-instructions{
+font-weight: 300;
+font-size: 14px;
+color: #b1b1b1;
+
+}
+.bank{
+  .bank-item{
+
+    h3{
+      font-size: 18px;
+      color: #071c4d;
+      margin-bottom: 0;
+    }
+    p{
+      margin-bottom: 0;
+    }
+
+.description{
+    margin-left: 10px;
+    overflow: hidden;
+    float: left;
+p {
+  font-weight: normal;
+  font-size: 16px;
+  color: #071c4d;
+}
+    }
+  }
+
+  .bank-image{
+    width: 45px;
+    height:45px;
+    float: left;
+  }
+}
 
     
     .disclaimer{
@@ -364,9 +400,9 @@ header {
   }
 
   .card-right{
-border-bottom-left-radius:0 ;
-border-bottom-right-radius: 0;
-border-bottom: 0;
+  border-bottom-left-radius:0 ;
+  border-bottom-right-radius: 0;
+  border-bottom: 0;
   }
 
 
@@ -434,10 +470,37 @@ border-bottom: 0;
       background-color: #FFB57C;
       color:#fff ;
       border-radius: 0;
-
     }
-
   }
+}
+
+.section-success{
+  height: 90vh;
+  h1{
+    font-size: 26px;
+    font-weight: 600;
+    color: #071c4d;
+  }
+
+  p{
+    font-weight: 300;
+    font-size: 18px;
+    color: #b1b1b1;
+  }
+}
+
+.btn-home-page{
+border-radius: 4px;
+background-color: #071c4d;
+color: #fff;
+
+&:hover{
+  color: #fff;
+  border-radius: 4px;
+  background-color: #2A488e;
+
+}
+
 
 
 }
